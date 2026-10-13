@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .frame {
+            display: flex;
+            background-color: blue;
+            width: 256px;
+            height: 256px;
+            margin: 2px;
+        }
+        .c1 {
+            background-color: gold;
+        }
+        .c2 {
+            background-color: lightskyblue;
+        }
+        .c3 {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame" style="align-items: flex-start; justify-content: center;">
+        <div class="c1">box 1(top center)</div>
+    </div>
+
+    <div class="frame" style="align-items: flex-start; justify-content: flex-end;">
+        <div class="c2">box 2(top right)</div>
+    </div>
+
+    <div class="frame" style="align-items: flex-end; justify-content: flex-end;">
+        <div class="c3">box 3(bottom right)</div>
+    </div>
+</body>
+</html>
+
+
