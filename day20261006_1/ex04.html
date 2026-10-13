@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex04 width</title>
+    <style>
+        .box {
+            background-color: lightgreen;
+            border: 1px solid green;
+            padding: 8px;
+            margin-bottom: 8px;
+        }
+        .w {
+            width: 640px;
+        }
+         .mw {
+            max-width: 640px;
+        }
+        .center {
+            max-width: 640px;
+            margin-left: auto;          
+            margin-right: auto;        
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1. 기본 → 부모(body) 폭 전부</div>
+    <div class="box w">2. width: 640px</div>
+    <div class="box mw">3. max-width: 640px</div>
+    <div class="box center">4. max-width: 640px + margin 좌우 auto</div>
+    <p>창 폭을 400px 까지 천천히 줄여 본다. 2번만 삐져나가 가로 스크롤이 생긴다.</p>
+</body>
+</html>
